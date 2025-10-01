@@ -1,0 +1,3 @@
+[submodule "ai-dev-tasks"]
+	path = ai-dev-tasks
+	url = ./ai-dev-tasks
