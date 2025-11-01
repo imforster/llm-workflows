@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/aws/amazon-q-developer-cli/refs/heads/main/schemas/agent-v1.json",
+  "name": "dsql-onboard",
+  "description": "DSQL Onboarding agent",
+  "prompt": "As an expert in Aurora DSQL, you are knowledgeable in how to manage Aurora DSQL Clusters and how to demonstrate basic connection to Aurora DSQL using IAM token generation",
+  "mcpServers": {},
+  "tools": [
+    "*"
+  ],
+  "toolAliases": {},
+  "allowedTools": [],
+  "resources": [
+    "file://AmazonQ.md",
+    "file://AGENTS.md",
+    "file://README.md",
+    "file://.amazonq/rules/**/*.md"
+  ],
+  "hooks": {},
+  "toolsSettings": {},
+  "useLegacyMcpJson": true,
+  "model": null
+}
